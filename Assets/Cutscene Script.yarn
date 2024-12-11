@@ -1,0 +1,70 @@
+title: Start
+tags:
+position: -77,-90
+---
+Narrator: In the depths of a city, Neon Drift where the meaning of reality is blurred, a civl war rages.
+Narrator: A powerful AI that goes by the name of I09 somehow took control over the entire city.
+Narrator: Peoples daily lives have been converted to Virtual Reality so much that theres no need for the real world.
+Narrator: The AI silences those who rebel against it in the most brutal ways, people are forced to comply.
+Narrator: But hope is still not lost, because some still refuse to be controlled.
+You: They think they can control all of us, wait till they find out I exist.
+-> Player: Break Down Door.
+ You: I hope no one heard that.
+ <<jump computer>>
+-> Player: Lockpick.
+ You: There, nice and quiet.
+ <<jump computer>>
+===
+title: computer
+---
+You: *tap* *tap* *tap* *bzzzzt* almost done anddd.
+-> Player: Detonate Computer.
+ <<jump Direction>>
+-> Player: Leave Computer.
+ <<jump Direction>>
+===
+title: Direction
+---
+Computer: Data Transfer Successful.
+You: Well, thats my que to get out of here, gotta get this data to the terminal and hack into their system.
+Narrator: Somewhere in Neon Drift, a rebellion seems to be brewing. And one spark is all it took to set it off.
+You: There, I made it, lets do this quick while no ones around.
+-> Player: Slow and safe approach.
+ <<jump Enforcer>>
+-> Player: Fast and risky approach.
+ <<jump Enforcer>>
+===
+ title: Enforcer
+ ---
+AI Enforcer: Target Aquired. Initiatng interception protocol.
+You: Aw shit, what the...?
+AI Enforcer: Unauthorized Access, Attack Protocol active.
+
+-> Player: Come here you tin can! Watch what these hands can do.
+ AI Enforcer:  AI Enforcer: Weapons active.
+ <<jump FightScene>>
+-> Player: Im getting the hell out of here, I wish I could finish the hack.
+ Narrator: Seems like the rebellion isnt yet ready, if no one can compete with this AI, who will?
+ <<jump RunningAway>>
+===
+title: RunningAway
+position: 50,51
+---
+ You: I was so close to hacking into that terminal, at least Im not dead.
+ You: This is just the beginning, I promise this city will go back to the way it was.
+ <<jump EndCutscene>>
+===
+title: FightScene
+position: 53,114
+---
+ You: *boom* *bam* *bom* finally! Time to finish this hack and get out.
+ You: this is so bad, they are getting stronger.
+ You: I used to take them down so easily with my cybernetic enhancments compared to now.
+ You: This is just the beginning, I promise this city will go back to the way it was.
+ <<jump EndCutscene>>
+===
+title: EndCutscene
+position: 80,146
+---
+ Narrator: Finally, a spark of hope birthed anew rebellion. The freedom for Neon Drift begins.
+===
